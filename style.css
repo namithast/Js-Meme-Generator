@@ -1,0 +1,30 @@
+.memeGenerator{
+    font-family:Impact, Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1px
+}
+.memeGenerator img{
+    height: 430px;
+    object-fit: cover;
+}
+.memeGenerator button{
+    padding: 8px 20px;
+    border: none;
+    border-bottom: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    font-family:Impact, Arial, Helvetica, sans-serif ;
+
+    cursor: pointer;
+    transition: all 400ms ease;
+    
+}
+.memeGenerator button:hover{
+    padding: 8px 36px;
+    border-bottom: 4px solid #222;
+    letter-spacing: 3px;
+}
+.memeGenerator .memeAuthor{
+    margin: 8px;
+}
