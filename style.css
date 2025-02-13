@@ -2,10 +2,13 @@
     font-family:Impact, Arial, Helvetica, sans-serif ;
     text-align: center;
     font-weight: lighter;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    padding: 20px;
 }
 .memeGenerator img{
-    height: 430px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     object-fit: cover;
 }
 .memeGenerator button{
@@ -21,10 +24,39 @@
     
 }
 .memeGenerator button:hover{
-    padding: 8px 36px;
+    padding: 10px 35px;
     border-bottom: 4px solid #222;
     letter-spacing: 3px;
 }
 .memeGenerator .memeAuthor{
     margin: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .memeGenerator img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .memeGenerator button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .memeGenerator img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .memeGenerator button {
+        font-size: 16px;
+        padding: 6px 14px;
+    }
+
+    .memeGenerator h2 {
+        font-size: 18px;
+    }
 }

@@ -1,4 +1,4 @@
-const generateMemeBtn = document.querySelector(
+const generateMemebtn = document.querySelector(
     ".memeGenerator .btn"
   );
   const memeImage = document.querySelector(".memeGenerator img");
@@ -19,6 +19,6 @@ const generateMemeBtn = document.querySelector(
       });
   };
   
-  generateMemeBtn.addEventListener("click", generateMeme);
+  generateMemebtn.addEventListener("click", generateMeme);
   
   generateMeme();
